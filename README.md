@@ -84,3 +84,9 @@ pip install -r requirements.txt
 ```
 
 3. Run the notebook in Scripts folder using Google Colab
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
