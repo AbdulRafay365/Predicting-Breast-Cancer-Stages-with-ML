@@ -1,5 +1,9 @@
 # Breast Cancer Classification using Machine Learning
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/21df4f2b-7be3-4b13-8871-d54588bfb5a5" alt="1430540" />
+</p>
 
+## Overview
 This project applies multiple supervised learning models to classify breast cancer instances as **benign (2)** or **malignant (4)** using the **Wisconsin Breast Cancer Dataset**. The models are evaluated based on accuracy, precision, recall, and advanced performance curves (ROC & Precision-Recall).
 
 ---
@@ -25,6 +29,7 @@ This project applies multiple supervised learning models to classify breast canc
 ---
 
 ## Models Applied
+
 
 - **Logistic Regression**
 - **Support Vector Machine (RBF Kernel)**
@@ -56,15 +61,6 @@ Data balancing was done using **SMOTE (Synthetic Minority Over-sampling Techniqu
 
 ---
 
-### Confusion Matrix (Sample - Logistic Regression):
-          Predicted
-         |   2 |  4
-     ---------------
-  2  |  141 |  2
-  4  |   5  | 62
-
----
-
 ## Key Insights
 
 - SMOTE significantly improved class balance and overall model performance.
@@ -76,7 +72,15 @@ Data balancing was done using **SMOTE (Synthetic Minority Over-sampling Techniqu
 
 ## How to Run
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/breast-cancer-classification.git
-   cd breast-cancer-classification
+1. **Clone the Repository**  
+```bash
+git clone https://github.com/AbdulRafay365/Predicting-Breast-Cancer-Stages-with-ML.git
+cd Predicting-Breast-Cancer-Stages-with-ML
+```
+
+2. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the notebook in Scripts folder using Google Colab
